@@ -93,7 +93,8 @@ This flexibility transforms the dashboard from a static display into an interact
 
 ### High Priority Risk Warning
 
-<img width="215" height="121" alt="image" src="https://github.com/user-attachments/assets/d4009ac1-6c51-42c2-910a-55300cbdd0ba" />\
+<img width="281" height="177" alt="image" src="https://github.com/user-attachments/assets/e279ea06-7989-4c85-8369-6953ba012e1d" />
+
 The High Priority Risk Warning is a section of the dashboard that prints the number of patients who have a high priority risk warning, defined as a priority score range above 0.675. It allows for doctors to quickly see the number of patients who are high risk and may need to be attended to.
 
 ### SPC Chart
