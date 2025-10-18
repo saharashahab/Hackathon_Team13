@@ -1,7 +1,5 @@
 # Hospital Wait Time Quality Control System
 
-This Patient Priority Dashboard provides a quality control system for tracking and mitigating wait times for inpatient care while on the hospital floor. 
-
 ## Table of Contents
 1. [Project Overview](#project-overview)
 2. [Features](#features)
@@ -13,6 +11,7 @@ This Patient Priority Dashboard provides a quality control system for tracking a
 8. [License](#license)
 
 ## Project Overview
+This Patient Priority Dashboard provides a quality control system for tracking and mitigating wait times for inpatient care while on the hospital floor. Based on customer discovery and analyzing a hospital's needs, a six sigma informed monitoring dashboard was created to display information about all thoses currently inpatient. It provides an easy to read visualization tool for doctors to help them manage patient prioritization on a standardized scale. 
 
 
 ## Features
@@ -43,10 +42,6 @@ git clone https://github.com/your-username/your-repository-name.git
  
  
  # Hackathon_Team13
-Team 13 decide to chose prompt 3 regarding the development a quality control system for tracking and mitigating wait times for inpatient care iun hospitals.
-
-Based on customer discovery and analyzing a hospital's needs, the team decided to create a dashboard that can display information abot all thoses currently inpatient. 
-
 The goal of the dashboard is to display all who are admitted as inpatients and quantify the order in which the hosptial should prioritize based on time since checked from the doctors, the original admitted time and date, and their injury severity scores. This dashboard will be known as the patient priority table.
 
 The first two metrics, admited time and time since last checked, simply state when the patient has been last been seen for care by a doctor. The injury severity score, or ISS, is assessed by triage before a patient is admitted into a hospital and is an evaluation of how stable a patient is. The evaluation accounts for all body regions and how severe the injury is to each as well as the patients vitals.
