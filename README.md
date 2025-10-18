@@ -12,7 +12,9 @@ There are several assumptions that the team is currently operating under. The fi
 The numerical method used to rank each patient based on their symptomns and wait times is based on a common Systems Engineering appraoch from a decision matrix. Critera that are vital for a system are identified and are represented within a given sample size. Weights are assigned to each to represent factors that are more important than others. In this case, a random survey of 15 people was conducted to evaluate the weights of each criteria used to assess the prioirty table. These values can be seen below:
 
 ISS - 40%
+
 Time Waited - 33%
+
 Average Check - Ratio 27%
 
 
