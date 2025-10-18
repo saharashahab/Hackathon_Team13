@@ -4,10 +4,11 @@
 1. [Project Overview](#project-overview)
 2. [Project Objective](#project-objective)
 3. [Features](#features)
-4. [Setup and Installation](#setup-and-installation)
-5. [Usage](#usage)
-6. [Functions](#functions)
-7. [Goals and Assumptions](#goals-and-assumptions)
+4. [Data](#data)
+5. [Setup and Installation](#setup-and-installation)
+6. [Usage](#usage)
+7. [Functions](#functions)
+8. [Goals and Assumptions](#goals-and-assumptions)
 
 ## Project Overview
 Long hospital wait times delay treatment and lower patient satisfaction. Many hospitals currently rely on manual systems that make it difficult for doctors to determine which patients should be visited next.
@@ -32,6 +33,12 @@ The patient priority table in the dashboard includes a priority score, which was
 - **High Risk Priority Warning**: Flags the number of high-risk patients that should be attended to immediately.
 - **PPk**: Performance process indices that measure whether the current patient priority scores stay within expected specification limits.
 - **PPk expected**: Predicted performance process indices after all high-priority patients have been visited.
+
+## Data
+
+Three different example datasets were generated, named [Hackathon_Data1](Hackathon_Data1.csv), [Hackathon_Data3](Hackathon_Data3.csv), and [Hackathon_Data4](Hackathon_Data4.csv).
+
+Their variables are described in the [Codebook](CODEBOOK.md) and the overall content is summarized in the [README](README.md).
 
 ## Setup and Installation
 
