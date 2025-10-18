@@ -13,7 +13,7 @@ Long hospital wait times delay treatment and lower patient satisfaction. Many ho
 
 The Patient Priority Dashboard was developed to provide a quality control tool for tracking and mitigating wait times for inpatient care while on the hospital floor. Based on customer discovery and analyzing a hospital's needs, a six sigma-informed monitoring dashboard displays real-time information about all current inpatients using a standardized scoring system to highlight those requiring the most urgent attention. This easy-to-read visualization tool helps doctors manage patient prioritization, ultimately improving hospital operating efficiency and the overall quality of care offered.
 
-This project was developed for the Six Sigma Hackathon by Team 13, with members Eileen Ho, Harish Kamble, Maia Marshall, Sahara Shahab, and Mark Tarazi.
+This project was developed for the Six Sigma Hackathon 2025 by Team 13, with members Eileen Ho, Harish Kamble, Maia Marshall, Sahara Shahab, and Mark Tarazi.
 
 ## Project Objective
 The goal of the Patient Priority Dashboard is to display all current patients on the floor and order how they should be prioritized in being checked based on: 
@@ -64,8 +64,8 @@ The patient priority table determines which patients have the highest priority t
 | Green (Low Risk) | Stable patients | <0.4 |
 
 Priority table output:\
-<img width="579" height="346" alt="Screenshot 2025-10-18 at 12 08 32 PM" src="https://github.com/user-attachments/assets/b38741f6-eac0-4e05-962f-71034fd77c4e" />\
-<img width="583" height="363" alt="image" src="https://github.com/user-attachments/assets/4be4cb5d-7fc7-40b6-b0aa-10e7cbef12d6" />
+<img width="379" height="146" alt="Screenshot 2025-10-18 at 12 08 32 PM" src="https://github.com/user-attachments/assets/b38741f6-eac0-4e05-962f-71034fd77c4e" />\
+<img width="383" height="163" alt="image" src="https://github.com/user-attachments/assets/4be4cb5d-7fc7-40b6-b0aa-10e7cbef12d6" />
 
 The patient priority table for the second dataset displays the patients listed in order from highest to lowest priority score, with each score highlighted based on their risk level. According to the output table, 13% of patients are categorized as high risk, 79% are categorized as medium risk, and the remaining are low risk. This reflects the idea that most admitted patients require prompt clinical review or intervention but are not in immediate danger. As a result, the determined thresholds for the priority score range appropriately prioritizes this group to ensure timely care delivery while reserving red status for truly critical cases and green for stable patients who can safely wait longer.
 
@@ -109,7 +109,7 @@ This is directly related to the Six Sigma DMAIC Framework:
 - Improve: Adjust shift scheduling
 - Control: Use SPC chart to verify process behavior is stable again
 
-<img width="876" height="679" alt="image" src="https://github.com/user-attachments/assets/7621474f-110e-4c1e-a17e-ba672c1489d3" />
+<img width="576" height="379" alt="image" src="https://github.com/user-attachments/assets/7621474f-110e-4c1e-a17e-ba672c1489d3" />
 
 The above image shows the SPC Chart for Hours Since Last Checked. The SPC Chart clearly indicates that though wait times are critical parameters to determine the priority, patients could have have high waiting times but comparatively low priority scores. This can also be seen in the figure where no high priority patient is above the SPC since there are other parameters (Injury Severity Score and Check Ratio) affecting the priority score.
 
