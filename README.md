@@ -69,10 +69,11 @@ The patient priority table determines which patients have the highest priority t
 | Green (Low Risk) | Stable patients | <0.4 |
 
 Priority table output:\
-<img width="426" height="317" alt="image" src="https://github.com/user-attachments/assets/baf9e409-2388-4301-9d08-ef611c1887d9" />
+<img width="486" height="317" alt="image" src="https://github.com/user-attachments/assets/baf9e409-2388-4301-9d08-ef611c1887d9" />
 
 
-<img width="483" height="263" alt="image" src="https://github.com/user-attachments/assets/4be4cb5d-7fc7-40b6-b0aa-10e7cbef12d6" />
+<img width="482" height="256" alt="image" src="https://github.com/user-attachments/assets/929bede9-823a-4d84-99f2-e324f5fcd5f6" />
+
 
 The patient priority table for the second dataset displays the patients listed in order from highest to lowest priority score, with each score highlighted based on their risk level. According to the output table, 13% of patients are categorized as high risk, 79% are categorized as medium risk, and the remaining are low risk. This reflects the idea that most admitted patients require prompt clinical review or intervention but are not in immediate danger. As a result, the determined thresholds for the priority score range appropriately prioritizes this group to ensure timely care delivery while reserving red status for truly critical cases and green for stable patients who can safely wait longer.
 
