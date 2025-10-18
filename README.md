@@ -124,7 +124,8 @@ The SPC interpretation outputs the number of data points above the upper control
 
 Process performance index, or Ppk, is oftentimes used in quality control to evaluate how well a current process is meeting specifications. Based on the value, it tells us the capability of the process. The value approaching 1 or going beyond 1 would make it a capable process. The predicted process performance index, or predicted Ppk, is used to evaluate how well a process could meet specifications if a metric had an idealized value (ex: no high priority risk warning patients).
 
-<img width="408" height="166" alt="image" src="https://github.com/user-attachments/assets/65664402-73c0-4235-a9dd-0419ca5cb709" />
+<img width="473" height="147" alt="image" src="https://github.com/user-attachments/assets/130e27f6-8eec-4c4a-8437-09aa85b70913" />
+
 
 The above image shows the Ppk and predicted Ppk for the data. The predicted Ppk is always expected to increase, since there will no longer be any high priority patients.
 
