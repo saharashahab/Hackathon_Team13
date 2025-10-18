@@ -77,7 +77,8 @@ The Sort by feature improves the usability of the dashboard by allowing the user
 - Sorting by Injury Severity Score (ISS): Allows the user to focus on the most critically injured patients. 
 
 Dashboard sorted by **ISS**:\
-<img width="511" height="371" alt="image" src="https://github.com/user-attachments/assets/58dbe852-7824-4fdb-bb04-a8193afe03bf" />\
+<img width="536" height="322" alt="image" src="https://github.com/user-attachments/assets/cbc871c8-1940-45e3-b08f-b7a3712063ec" />
+
 This image shows how the dashboard will look when sorted by ISS. The data is ordered in descending order with the first row showing the patient with the highest ISS and the last row shown on the screen showing the patient with the tenth highest ISS. This option allows the user to quickly identify and prioritize patients with the most critical injuries, ensuring that the high severity cases receive quicker attention.
 
 Dashboard sorted by **Hours Since Last Checked**:\
@@ -86,7 +87,7 @@ Dashboard sorted by **Hours Since Last Checked**:\
 This image shows how the dashboard will look when sorted by Hours since Last Checked. The data is arranged in descending order, with the patient who has gone the longest without being seen appearing at the top row. This sorting option allows users to identify patients who may have been waiting too long for a check in, ensuring that no patient experiences too long of a wait time in care.
 
 Dashboard sorted by **Priority Score**:\
-<img width="618" height="375" alt="image" src="https://github.com/user-attachments/assets/40b5c62a-f3d4-4bbf-9380-17ab84b19ebb" />
+<img width="518" height="375" alt="image" src="https://github.com/user-attachments/assets/40b5c62a-f3d4-4bbf-9380-17ab84b19ebb" />
 
 This image shows how the dashboard will look when sorted by the priority score. The data appears in descending order, with the patient with the highest priority score being on the first row. This sorting method accounts for multiple criteria (wait time, ISS, duration/number of checks), and results in a balanced evaluation of urgency and stability.
 
