@@ -1,3 +1,47 @@
+# Hospital Wait Time Quality Control System
+
+This Patient Priority Dashboard provides a quality control system for tracking and mitigating wait times for inpatient care while on the hospital floor. 
+
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [Features](#features)
+3. [Setup and Installation](#setup-and-installation)
+4. [Usage](#usage)
+5. [Functions](#functions)
+6. [Example Output](#example-output)
+7. [Contributing](#contributing)
+8. [License](#license)
+
+## Project Overview
+
+
+## Features
+- **Patient Overview Table**: A sortable and interactive table displaying patient information and calculated metrics (wait time since last checked by a doctor, injury severity score, and their priority number).
+- **SPC Chart**: Displays a chart for monitoring wait times with Upper Control Limit (UCL) and Lower Control Limit (LCL) to track process stability.
+- **Color Legend**: A legend for understanding color-coded Priority Scores based on Wait Time.
+- **High Risk Priority Warning**: Flags the number of high-risk patients that should be attended to immediately.
+- **PPk**:
+- **PPk expected**:
+
+## Setup and Installation
+
+### Prerequisites
+Ensure that you have the following software installed:
+- **R** (version 3.6 or higher)
+- **Shiny** package
+- **shinydashboard** package
+- **DT** package
+- **dplyr** package
+- **ggplot2** package
+
+### Installation Instructions
+
+```bash
+git clone https://github.com/your-username/your-repository-name.git
+
+```
+ 
+ 
  # Hackathon_Team13
 Team 13 decide to chose prompt 3 regarding the development a quality control system for tracking and mitigating wait times for inpatient care iun hospitals.
 
