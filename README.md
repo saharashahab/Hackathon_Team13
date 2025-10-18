@@ -85,7 +85,7 @@ Dashboard sorted by **Hours Since Last Checked**:\
 This image shows how the dashboard will look when sorted by Hours since Last Checked. The data is arranged in descending order, with the patient who has gone the longest without being seen appearing at the top row. This sorting option allows users to identify patients who may have been waiting too long for a check in, ensuring that no patient experiences too long of a wait time in care.
 
 Dashboard sorted by **Priority Score**:\
-<img width="918" height="575" alt="image" src="https://github.com/user-attachments/assets/40b5c62a-f3d4-4bbf-9380-17ab84b19ebb" />
+<img width="618" height="375" alt="image" src="https://github.com/user-attachments/assets/40b5c62a-f3d4-4bbf-9380-17ab84b19ebb" />
 
 This image shows how the dashboard will look when sorted by the priority score. The data appears in descending order, with the patient with the highest priority score being on the first row. This sorting method accounts for multiple criteria (wait time, ISS, duration/number of checks), and results in a balanced evaluation of urgency and stability.
 
