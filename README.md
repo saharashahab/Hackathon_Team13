@@ -54,10 +54,10 @@ git clone https://github.com/your-username/your-repository-name.git
 
 ### Patient Priority Table
 The patient priority table determines which patients have the highest priority to be seen next by doctors. There are four columns within the table: patient name, time since last checked, injury severity score, and priority score. Based on the patient priority score, the patients are categorized into three different groups:
-| Color | Description | Priority Score Range |
-| Red (High Risk) | Immediate attention needed | >0.675 |
-| Yellow (Medium Risk) | Monitor closely | 0.4-0.675 |
-| Green (Low Risk) | Stable patients | <0.4 |
+ Color | Description | Priority Score Range 
+ Red (High Risk) | Immediate attention needed | >0.675 
+ Yellow (Medium Risk) | Monitor closely | 0.4-0.675 
+ Green (Low Risk) | Stable patients | <0.4 
 
 Priority table output:
 <img width="579" height="346" alt="Screenshot 2025-10-18 at 12 08 32 PM" src="https://github.com/user-attachments/assets/b38741f6-eac0-4e05-962f-71034fd77c4e" />
