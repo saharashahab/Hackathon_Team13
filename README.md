@@ -55,14 +55,14 @@ git clone https://github.com/your-username/your-repository-name.git
 ### Patient Priority Table
 The patient priority table determines which patients have the highest priority to be seen next by doctors. There are four columns within the table: patient name, time since last checked, injury severity score, and priority score. Based on the patient priority score, the patients are categorized into three different groups:
 | Color | Description | Priority Score Range |
-| :------- | :------: | -------: |
+| :------- | :------- | :------- |
 | Red (High Risk) | Immediate attention needed | >0.675 |
 | Yellow (Medium Risk) | Monitor closely | 0.4-0.675 |
 | Green (Low Risk) | Stable patients | <0.4 |
 
-Priority table output:
-<img width="579" height="346" alt="Screenshot 2025-10-18 at 12 08 32 PM" src="https://github.com/user-attachments/assets/b38741f6-eac0-4e05-962f-71034fd77c4e" />
-<img width="583" height="363" alt="image" src="https://github.com/user-attachments/assets/4be4cb5d-7fc7-40b6-b0aa-10e7cbef12d6" />
+Priority table output:\
+<img width="579" height="346" alt="Screenshot 2025-10-18 at 12 08 32 PM" src="https://github.com/user-attachments/assets/b38741f6-eac0-4e05-962f-71034fd77c4e" />\
+<img width="583" height="363" alt="image" src="https://github.com/user-attachments/assets/4be4cb5d-7fc7-40b6-b0aa-10e7cbef12d6" />\
 
 The patient priority table for the second dataset displays the patients listed in order from highest to lowest priority score, with each score highlighted based on their risk level. According to the output table, 13% of patients are categorized as high risk, 79% are categorized as medium risk, and the remaining are low risk. This reflects the idea that most admitted patients require prompt clinical review or intervention but are not in immediate danger. As a result, the determined thresholds for the priority score range appropriately prioritizes this group to ensure timely care delivery while reserving red status for truly critical cases and green for stable patients who can safely wait longer.
 
