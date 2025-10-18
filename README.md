@@ -9,11 +9,14 @@ The first two metrics, admited time and time since last checked, simply state wh
 
 There are several assumptions that the team is currently operating under. The first is that wait times and "checked-in" times are based on when a patient sees a doctor and does not include any other supporting staff. The second assumption is that the ISS is assumed to be already calculated by the hospitals and is easily accessible as it is a widely accepted practice in hospitals. Lastly, the main emphasis of the dashboard is the patients themselves and is not contingent on the staff supporting the hospital.
 
+The numerical method used to rank each patient based on their symptomns and wait times is based on a common Systems Engineering appraoch from a decision matrix. Critera that are vital for a system are identified and are represented within a given sample size. Weights are assigned to each to represent factors that are more important than others. In this case, a random survey of 15 people was conducted to evaluate the weights of each criteria used to assess the prioirty table. These values can be seen below:
+
+ISS - 40%
+Time Waited - 33%
+Average Check - Ratio 27%
 
 
+Afterwards, the maximum desired values wihtin each of these critertia are defined by the team and are used to normalize the data.
 
 
-
-Prompt 3: Health Systems
-Hospitals require the coordination of many nurses and doctors on each floor for good communication and treatment of patients. However, in your hospital system, patients note wide and irregular gaps and how often nurses and doctors come to check on them during their inpatient care, impacting perceived and actual quality of treatment, and sometimes extending the stay of patients unnecessarily. Your hospital system has commissioned your team to develop a quality control system for tracking and mitigating wait times for inpatient care while on the hospital floor.
 
