@@ -112,7 +112,7 @@ This is directly related to the Six Sigma DMAIC Framework:
 - Improve: Adjust shift scheduling
 - Control: Use SPC chart to verify process behavior is stable again
 
-<img width="592" height="433" alt="image" src="https://github.com/user-attachments/assets/b4b17e6b-ef4b-444a-92af-1476c7d62aac" />
+<img width="492" height="533" alt="image" src="https://github.com/user-attachments/assets/b4b17e6b-ef4b-444a-92af-1476c7d62aac" />
 
 
 The above image shows the SPC Chart for Hours Since Last Checked. The SPC Chart clearly indicates that though wait times are critical parameters to determine the priority, patients could have have high waiting times but comparatively low priority scores. This can also be seen in the figure where no high priority patient is above the SPC since there are other parameters (Injury Severity Score and Check Ratio) affecting the priority score.
