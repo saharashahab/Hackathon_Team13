@@ -2,7 +2,7 @@
 
 ## 📘 Overview
 
-These datasets contains representative patient data from a **typical hospital environment**, focusing on routine monitoring situations. **Abnormal or emergency cases are excluded** to maintain a baseline of standard patient care data. These datasets can be used by doctors as part of a quality control system to help track which patients have faced the longest wait times on the hospital floor and should be prioritized for treatment.
+The dataset contains representative patient data from a typical hospital environment, focusing on routine monitoring situations. Abnormal or emergency cases are excluded to maintain a baseline of standard data. The datasets can be used by doctors as part of a quality control system to help track which patients have faced the longest wait times on the hospital floor and should be prioritized for treatment.
 
 The dataset is designed for applications such as patient check-up prioritization, hospital workflow simulation, and healthcare data analysis.
 
@@ -10,19 +10,26 @@ The dataset is designed for applications such as patient check-up prioritization
 
 ## 📊 Dataset Features
 
-Each record includes the selected following fields:
+Each dataset includes the selected following fields:
 
-- **`PatientName`** – Identifier for the patient.
-- **`TimeChecked`** – Time the patient was last checked by a doctor (in 24-hour time).
-- **`Injury Severity Score (ISS)`** – Numerical indicator of injury severity, assigned by the hospital. Higher scores suggest more serious conditions (integer).
+- **`PatientName`**
+- **'Birthdate'**
+- **'TimeAdmitted'**
+- **'DateAdmitted'**
+- **`TimeChecked`**
+- **'DateChecked'**
+- **`ISS'** (Injury Severity Score)
+- **'Checks'**
+
+See the codebook (CODEBOOK.md) for variable descriptions.
 
 ---
 
 ## ✅ Intended Use
 
-This dataset is suitable for:
+The dataset is suitable for:
 
-- 📈 Tracking wait times for inpatient care while on the hospital floor  
+- 📈 Tracking wait times for inpatient care on the hospital floor  
 - 🏥 Alerting doctors to patients who most need to be checked on using quantifiable metrics  
 - 🎓 Educational purposes in six sigma, data science, or healthcare analytics 
 
@@ -30,8 +37,8 @@ This dataset is suitable for:
 
 ## ⚠️ Limitations
 
-- Only includes **typical** (non-critical) patient scenarios.
-- Patient names and other data are **fictitious** and not based on real individuals.
-- Not suitable for training emergency detection systems or models requiring edge-case data.
+- Only includes *typical* (non-critical) patient scenarios.
+- Patient names and other data are *fictitious* and not based on real individuals.
+- Not suitable for edge-case scenarios.
 
 ---
