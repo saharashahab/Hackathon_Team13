@@ -6,7 +6,8 @@
 3. [Features](#features)
 4. [Setup and Installation](#setup-and-installation)
 5. [Usage](#usage)
-6. [Goals and Assumptions](#goals-and-assumptions)
+6. [Functions](#functions)
+7. [Goals and Assumptions](#goals-and-assumptions)
 
 ## Project Overview
 Long hospital wait times delay treatment and lower patient satisfaction. Many hospitals currently rely on manual systems that make it difficult for doctors to determine which patients should be visited next.
@@ -127,7 +128,23 @@ Process performance index, or Ppk, is oftentimes used in quality control to eval
 <img width="473" height="147" alt="image" src="https://github.com/user-attachments/assets/130e27f6-8eec-4c4a-8437-09aa85b70913" />
 
 
-The above image shows the Ppk and predicted Ppk for the data. The predicted Ppk is always expected to increase, since there will no longer be any high priority patients.
+The above image shows the Ppk and predicted Ppk for the data. The predicted Ppk is the Ppk value of the system after the doctors have checked all the high-priority patients. The predicted Ppk is always expected to increase, since there will no longer be any high priority patients. The increment in Ppk value means that the process is tending to being more capable than before, therefore showing the value added by the dashboard and mitigating the initial problem.
+
+## Functions
+
+Documentation for **ppk.r function**:
+- Input:
+  - data: The .csv file that uploaded to the dashboard 
+  - current_datetime: Present time of the computer system
+- Description: The function reads the .csv file and calculates the ppk for it. It also creates a modified .csv file that is created after the doctors  have checked the high-priority patients and then calculates the predicted ppk for it.
+- Output: a vector having ppk and predicted ppk
+
+Documentation for **PriorityScore.r function**:
+- Input:
+ - data: The csv file that we feed into the dashboard 
+ - current_datetime: Present time of the computer system
+- Description: The function takes in the .csv file and calculates three variables - Injury Severity Score, TimeSinceLastCheck, and Checkratio. It then computes the priority score based on the variables and the product weights given to them by taking a survey.
+- Output: a data frame consisting of Patient Name, Hours Since Last Checked, Injury Severity Score, and Priority Score which will then be displayed on the dashboard
 
 ## Goals and Assumptions
 The goal of the dashboard is to display all who are admitted as inpatients and quantify the order in which the hospital should prioritize based on time since checked by the doctors, the original admitted time and date, and their injury severity scores. This dashboard will be known as the patient priority table.
