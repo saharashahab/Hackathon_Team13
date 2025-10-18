@@ -81,7 +81,8 @@ Dashboard sorted by **ISS**:\
 This image shows how the dashboard will look when sorted by ISS. The data is ordered in descending order with the first row showing the patient with the highest ISS and the last row shown on the screen showing the patient with the tenth highest ISS. This option allows the user to quickly identify and prioritize patients with the most critical injuries, ensuring that the high severity cases receive quicker attention.
 
 Dashboard sorted by **Hours Since Last Checked**:\
-<img width="510" height="367" alt="image" src="https://github.com/user-attachments/assets/0aa17762-b43c-4615-bf9e-d967b2afeea6" />\
+<img width="531" height="417" alt="image" src="https://github.com/user-attachments/assets/90ee0836-fbd1-4e99-8728-d685a57d5527" />
+
 This image shows how the dashboard will look when sorted by Hours since Last Checked. The data is arranged in descending order, with the patient who has gone the longest without being seen appearing at the top row. This sorting option allows users to identify patients who may have been waiting too long for a check in, ensuring that no patient experiences too long of a wait time in care.
 
 Dashboard sorted by **Priority Score**:\
