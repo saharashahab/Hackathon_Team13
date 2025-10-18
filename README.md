@@ -17,8 +17,7 @@ Time Waited - 33%
 
 Average Check - Ratio 27%
 
-
-Afterwards, the maximum desired values wihtin each of these critertia are defined by the team and are used to normalize the data.
+Afterwards, the maximum desired values wihtin each of these critertia are defined by the team and are used to normalize the data. The purpose of normalizing the data is so that they can be multiplied by the defined weights. The final scores of each are then added up to obtain a value form 0-1, representing how much a patient should be prioritized, from 0 being deprioritized to 1 being crticial.
 
 
 
