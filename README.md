@@ -11,8 +11,8 @@
 8. [License](#license)
 
 ## Project Overview
-Long hospital wait times delay treatment and lower patient satisfaction. They currently rely on manual systems that make it difficult for doctors to determine which patients should be visuted next. This Patient Priority Dashboard provides a quality control system for tracking and mitigating wait times for inpatient care while on the hospital floor. Based on customer discovery and analyzing a hospital's needs, a six sigma informed monitoring dashboard was created to display information about all those currently inpatient. It provides an easy to read visualization tool for doctors to help them manage patient prioritization on a standardized scale. 
-
+Long hospital wait times delay treatment and lower patient satisfaction. Many hospitals currently rely on manual systems that make it difficult for doctors to determine which patients should be visited next. 
+The Patient Priority Dashboard was developed to provide a quality control tool for tracking and mitigating wait times for inpatient care while on the hospital floor. Based on customer discovery and analyzing a hospital's needs, a six sigma-informed monitoring dashboard displays real-time information about all current inpatients using a standardized scoring system to highlight those requiring the most urgent attention. This easy-to-read visualization tool helps doctors manage patient prioritization, ultimately improving hospital operating efficiency and the overall quality of care offered. 
 
 ## Features
 - **Patient Overview Table**: A sortable and interactive table displaying patient information and calculated metrics (wait time since last checked by a doctor, injury severity score, and their priority number).
