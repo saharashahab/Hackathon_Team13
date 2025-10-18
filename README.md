@@ -116,7 +116,7 @@ This is directly related to the Six Sigma DMAIC Framework:
 
 
 The above image shows the SPC Chart for Hours Since Last Checked. The SPC Chart clearly indicates that though wait times are critical parameters to determine the priority, patients could have have high waiting times but comparatively low priority scores. This can also be seen in the figure where no high priority patient is above the SPC since there are other parameters (Injury Severity Score and Check Ratio) affecting the priority score.
-The SPC interpretation outputs the number of data points above the upper control limit. If there are any points exceeding that limit, the interpretation section will advise the user to immediately visit the patients with the highest wait times. 
+The SPC interpretation outputs the number of data points above the upper control limit. If there are any points exceeding that limit, the interpretation section will advise the user to immediately visit the patients with the extremely high wait times. 
 
 ### Ppk and Predicted Ppk
 
