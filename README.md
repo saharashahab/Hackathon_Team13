@@ -36,7 +36,7 @@ The patient priority table in the dashboard includes a priority score, which was
 
 ## Data
 
-Three different example datasets were generated, named [Hackathon_Data1](dataset\Hackathon_Data1.csv), [Hackathon_Data3](Hackathon_Data3.csv), and [Hackathon_Data4](Hackathon_Data4.csv).
+Three different example datasets were generated, named [Hackathon_Data1](dataset/Hackathon_Data1.csv), [Hackathon_Data3](Hackathon_Data3.csv), and [Hackathon_Data4](Hackathon_Data4.csv).
 
 Their variables are described in the [Codebook](CODEBOOK.md) and the overall content is summarized in the [README](README.md).
 
