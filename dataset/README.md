@@ -21,7 +21,7 @@ Each dataset includes the selected following fields:
 - **`ISS`** (Injury Severity Score)
 - **`Checks`**
 
-See the codebook (CODEBOOK.md) for variable descriptions.
+See the codebook [Codebook](CODEBOOK.md) for variable descriptions.
 
 ---
 
