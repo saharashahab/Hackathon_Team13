@@ -69,7 +69,8 @@ The patient priority table determines which patients have the highest priority t
 | Green (Low Risk) | Stable patients | <0.4 |
 
 Priority table output:\
-<img width="479" height="246" alt="Screenshot 2025-10-18 at 12 08 32 PM" src="https://github.com/user-attachments/assets/b38741f6-eac0-4e05-962f-71034fd77c4e" />
+<img width="426" height="317" alt="image" src="https://github.com/user-attachments/assets/baf9e409-2388-4301-9d08-ef611c1887d9" />
+
 
 <img width="483" height="263" alt="image" src="https://github.com/user-attachments/assets/4be4cb5d-7fc7-40b6-b0aa-10e7cbef12d6" />
 
