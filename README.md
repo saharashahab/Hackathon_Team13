@@ -141,8 +141,8 @@ Documentation for **ppk.r function**:
 
 Documentation for **PriorityScore.r function**:
 - Input:
- - data: The csv file that we feed into the dashboard 
- - current_datetime: Present time of the computer system
+  - data: The csv file that we feed into the dashboard 
+  - current_datetime: Present time of the computer system
 - Description: The function takes in the .csv file and calculates three variables - Injury Severity Score, TimeSinceLastCheck, and Checkratio. It then computes the priority score based on the variables and the product weights given to them by taking a survey.
 - Output: a data frame consisting of Patient Name, Hours Since Last Checked, Injury Severity Score, and Priority Score which will then be displayed on the dashboard
 
