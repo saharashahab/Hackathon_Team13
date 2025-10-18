@@ -5,7 +5,7 @@
 2. [Project Objective](#project-objective)
 3. [Features](#features)
 4. [Setup and Installation](#setup-and-installation)
-5. [Goals and Assumptions](#goals=and-assumptions)
+5. [Goals and Assumptions](#goals-and-assumptions)
 
 ## Project Overview
 Long hospital wait times delay treatment and lower patient satisfaction. Many hospitals currently rely on manual systems that make it difficult for doctors to determine which patients should be visited next. <br /><br />
