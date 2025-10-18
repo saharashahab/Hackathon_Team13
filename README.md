@@ -153,6 +153,57 @@ Documentation for **PriorityScore.r function**:
 - Description: The function takes in the .csv file and calculates three variables - Injury Severity Score, TimeSinceLastCheck, and Checkratio. It then computes the priority score based on the variables and the product weights given to them by taking a survey.
 - Output: a data frame consisting of Patient Name, Hours Since Last Checked, Injury Severity Score, and Priority Score which will then be displayed on the dashboard
 
+Documentation for **sorted_data() function**
+- Input:
+  - input$sort_choice: The user-selected sorting option in the dropdown
+  - data: The processed patient dataset containing the relevant columns
+- Description: The function sorts the dataset according to the selected criteria from the dropdown menu. It updates all resulting widgets such as the tables and plots when the sorting preference changes.
+- Output: A sorted data frame used as the main input for the Patient Priority Table and the SPC chart.
+
+Documentation for **output$patient_table**
+- Input:
+  - sorted_data(): The sorted patient dataset containing ISS, Hours Since Last Checked, and Priority Score.
+- Description:This function creates an interactive, sortable table that displays patient information along with calculated metrics such as the priority score. The table allows doctors to quickly identify which patients need to be prioritized. 
+- Output: A data table showing relevant patient data such as the priority scores, ISS, and hours since last check in. 
+
+Documentation for **output$color_legend**
+- Input:
+  - None because it uses fixed color thresholds which are defined in the UI section
+- Description: Displays a color legend explaining the color's meaning of each Priority Score range: Green is low, Yellow is medium, and Red is high. This provides intuitive visual guidance to help interpret the table and charts.
+- Output: A small UI box labeled “Priority Score Color Legend.”
+ 
+Documentation for **output$high_risk_count_box**
+- Input: sorted_data(): Includes the patient’s priority level. 
+- Description: Determines the number of patients in the “High” priority category and displays the total in a value box. Good for quick results if the doctor wants to know how many patients are high risk at the moment.
+- Output: A value box displaying the number of high-risk patients
+
+Documentation for **output$spc_chart**
+- Input: sorted_data(): includes the patient wait times.
+- Description: Creates an SPC chart to visualize patient wait times relative to the wait time average and moving range. The chart includes the mean line and control limits (UCL, LCL) to help detect instability in the process. Each point is color-coded based on the patients priority level. 
+- Output: A SPC chart showing variation and control limits for patient wait times.
+
+Documentation for **output$ppk_box**
+- Input: sorted_data(): Includes the process performance data
+- Description: Calculates the current Process Performance Index (Ppk) to measure how well the process stays within control limits. 
+- Output: A value box showing the calculated Ppk value.
+
+Documentation for **output$predicted_ppk_box**
+- Input: sorted_data(): Includes patient wait times.
+- Description: Estimates how the Ppk value would change if all high-priority patients were checked. Helps visualize the potential improvement in process performance through more efficient prioritization. 
+- Output: A value box showing the predicted Ppk value.
+
+Documentation for **output$ppk_interpretation**
+- Input: ppk_value: The calculated Ppk value. 
+- Description: Provides an explanation of what Ppk means in the hospital context. A Ppk below 2/3 indicates poor process control and it's written in red, between 2/3 and 1 suggests acceptable control and written in yellow, and above 1 indicates a stable, capable process and written in green.
+- Output: A box with text.
+
+Documentation for **output$spc_interpretation**
+- Input:
+  - sorted_data(): Includes patient wait times.
+  - UCL: Upper Control Limit from the SPC chart.
+- Description: Counts how many data points exceed the upper control limit. If any points exceed the UCL, it warns the user that the process is unstable, suggesting delayed patient care or irregular check cycles. It advises the user to check on the patients with the very high wait times. 
+- Output: A box with text explaining whether the process is stable or unstable based on SPC results.
+
 ## Goals and Assumptions
 The goal of the dashboard is to display all who are admitted as inpatients and quantify the order in which the hospital should prioritize based on time since checked by the doctors, the original admitted time and date, and their injury severity scores. This dashboard will be known as the patient priority table.
 
