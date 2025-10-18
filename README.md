@@ -11,16 +11,17 @@
 8. [License](#license)
 
 ## Project Overview
-Long hospital wait times delay treatment and lower patient satisfaction. Many hospitals currently rely on manual systems that make it difficult for doctors to determine which patients should be visited next. 
+Long hospital wait times delay treatment and lower patient satisfaction. Many hospitals currently rely on manual systems that make it difficult for doctors to determine which patients should be visited next. <br /><br />
 The Patient Priority Dashboard was developed to provide a quality control tool for tracking and mitigating wait times for inpatient care while on the hospital floor. Based on customer discovery and analyzing a hospital's needs, a six sigma-informed monitoring dashboard displays real-time information about all current inpatients using a standardized scoring system to highlight those requiring the most urgent attention. This easy-to-read visualization tool helps doctors manage patient prioritization, ultimately improving hospital operating efficiency and the overall quality of care offered. 
 
 ## Features
 - **Patient Overview Table**: A sortable and interactive table displaying patient information and calculated metrics (wait time since last checked by a doctor, injury severity score, and their priority number).
+- **Display Option Dropdown**: Allows the user to sort displayed data based on calculated metrics.
 - **SPC Chart**: Displays a chart for monitoring wait times with Upper Control Limit (UCL) and Lower Control Limit (LCL) to track process stability.
 - **Color Legend**: A legend for understanding color-coded Priority Scores based on Wait Time.
 - **High Risk Priority Warning**: Flags the number of high-risk patients that should be attended to immediately.
-- **PPk**:
-- **PPk expected**:
+- **PPk**: Performance process indices that measure whether the current patient priority scores stay within expected specification limits.
+- **PPk expected**: Predicted performance process indices after all high-priority patients have been visited. 
 
 ## Setup and Installation
 
@@ -45,9 +46,9 @@ git clone https://github.com/your-username/your-repository-name.git
  
  
  # Hackathon_Team13
-The goal of the dashboard is to display all who are admitted as inpatients and quantify the order in which the hosptial should prioritize based on time since checked from the doctors, the original admitted time and date, and their injury severity scores. This dashboard will be known as the patient priority table.
+The goal of the dashboard is to display all who are admitted as inpatients and quantify the order in which the hospital should prioritize based on time since checked by the doctors, the original admitted time and date, and their injury severity scores. This dashboard will be known as the patient priority table.
 
-The first two metrics, admited time and time since last checked, simply state when the patient has been last been seen for care by a doctor. The injury severity score, or ISS, is assessed by triage before a patient is admitted into a hospital and is an evaluation of how stable a patient is. The evaluation accounts for all body regions and how severe the injury is to each as well as the patients vitals.
+The first two metrics, admission time and time since last checked, simply state when the patient has been last seen for care by a doctor. The injury severity score, or ISS, is assessed by triage before a patient is admitted into a hospital and is an evaluation of how stable a patient is. The evaluation accounts for all body regions and how severe the injury is to each as well as the patients vitals.
 
 There are several assumptions that the team is currently operating under. The first is that wait times and "checked-in" times are based on when a patient sees a doctor and does not include any other supporting staff. The second assumption is that the ISS is assumed to be already calculated by the hospitals and is easily accessible as it is a widely accepted practice in hospitals. Lastly, the main emphasis of the dashboard is the patients themselves and is not contingent on the staff supporting the hospital.
 
