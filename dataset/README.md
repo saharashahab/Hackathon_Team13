@@ -13,13 +13,13 @@ The dataset is designed for applications such as patient check-up prioritization
 Each dataset includes the selected following fields:
 
 - **`PatientName`**
-- **'Birthdate'**
-- **'TimeAdmitted'**
-- **'DateAdmitted'**
+- **`Birthdate`**
+- **`TimeAdmitted`**
+- **`DateAdmitted`**
 - **`TimeChecked`**
-- **'DateChecked'**
-- **`ISS'** (Injury Severity Score)
-- **'Checks'**
+- **`DateChecked`**
+- **`ISS`** (Injury Severity Score)
+- **`Checks`**
 
 See the codebook (CODEBOOK.md) for variable descriptions.
 
