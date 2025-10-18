@@ -46,17 +46,16 @@ Ensure that you have the following software installed:
 - **readr** package
 - **readxl** package
 - **lubridate** package
+- **dms** package
 
 ### User Tutorial
 
-1. Clone github repository 
-2. Download RPackages Folder (contains app.R, ppk.R, PriorityScore.R)
-3. From dataset Folder, download Hackathon_Data1.csv, Hackathon_Data3.csv, and Hackathon_Data4.csv 
-4. Upload Rpackages Folder to IDE compatible with R programming (RStudio, PositCloud, etc.)
-5. Ensure appropriate packages listed above are downloaded.
-6. In Rpackages Folder, go to app.R
-7. Hit “Run App” 
-
+1. Clone GitHub repository 
+2. Go to PositCloud and create a new project, and direct it to the GitHub repository
+3. From dataset Folder, download Hackathon_Data1.csv, Hackathon_Data3.csv, and Hackathon_Data4.csv (ensure is located in computer environment)
+4. Ensure appropriate packages listed above are downloaded
+5. In Rpackages Folder, go to app.R
+6. Hit “Run App”
  
 ## Usage
 
