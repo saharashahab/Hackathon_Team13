@@ -2,14 +2,10 @@
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
-2. [Project Objective] (#project-objective)
+2. [Project Objective](#project-objective)
 3. [Features](#features)
 4. [Setup and Installation](#setup-and-installation)
-5. [Usage](#usage)
-6. [Functions](#functions)
-7. [Example Output](#example-output)
-8. [Contributing](#contributing)
-9. [License](#license)
+5. [Goals and Assumptions](#hackathon_team13-goals=and-assumptions)
 
 ## Project Overview
 Long hospital wait times delay treatment and lower patient satisfaction. Many hospitals currently rely on manual systems that make it difficult for doctors to determine which patients should be visited next. <br /><br />
@@ -55,7 +51,7 @@ git clone https://github.com/your-username/your-repository-name.git
 ```
  
  
-## Hackathon_Team13
+## Hackathon_Team13 Goals and Assumptions
 The goal of the dashboard is to display all who are admitted as inpatients and quantify the order in which the hospital should prioritize based on time since checked by the doctors, the original admitted time and date, and their injury severity scores. This dashboard will be known as the patient priority table.
 
 The first two metrics, admission time and time since last checked, simply state when the patient has been last seen for care by a doctor. The injury severity score, or ISS, is assessed by triage before a patient is admitted into a hospital and is an evaluation of how stable a patient is. The evaluation accounts for all body regions and how severe the injury is to each as well as the patients vitals.
