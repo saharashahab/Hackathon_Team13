@@ -58,6 +58,13 @@ Ensure that you have the following software installed:
 6. Hit “Run App”
  
 ## Usage
+<img width="477" height="267" alt="image" src="https://github.com/user-attachments/assets/b1d7b6bf-ad26-43f9-8d46-996d0c01fb24" />
+The first step will be to upload a .csv file. Click browse, and upload any of the .csv files downloaded from the dataset folder (Hackathon_Data1.csv, Hackathon_Data3.csv, or Hackathon_Data4.csv).
+
+<img width="397" height="116" alt="image" src="https://github.com/user-attachments/assets/e11c7f30-5579-4b6f-9876-e2938d1d5f1e" />
+
+To upload and test a different file, click the browse button again on the dashboard interface and select a new .csv file from the provided data sets.  
+
 
 ### Patient Priority Table
 The patient priority table determines which patients have the highest priority to be seen next by doctors. There are four columns within the table: patient name, time since last checked, injury severity score, and priority score. Based on the patient priority score, the patients are categorized into three different groups:
