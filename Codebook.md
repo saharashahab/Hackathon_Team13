@@ -1,5 +1,7 @@
 ## Datasheet Codebook
 
+<img width="812" height="24" alt="Screenshot 2025-10-18 at 1 36 49 AM" src="https://github.com/user-attachments/assets/ace3f384-e56a-4116-8e4a-e8c6c8d91f99" />
+
 **PatientName**: Name of patient, generated randomly using ChatGPT. Used since hospitals use names as identifiers for patients.
 
 **Birthdate**: Birthdate of patient, generated randomly using ChatGPT. Used since hospitals use birthdates as identifiers for patients.
