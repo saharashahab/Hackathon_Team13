@@ -32,6 +32,9 @@ Ensure that you have the following software installed:
 - **DT** package
 - **dplyr** package
 - **ggplot2** package
+- **readr** package
+- **readxl** package
+- **lubridate** package
 
 ### Installation Instructions
 
