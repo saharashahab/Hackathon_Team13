@@ -8,9 +8,9 @@ The dataset is designed for applications such as patient check-up prioritization
 
 ---
 
-## 📊 Dataset Features
+## 📊 Dataset Variables
 
-Each dataset includes the selected following fields:
+Each dataset includes the following variables:
 
 - **`PatientName`**
 - **`Birthdate`**
