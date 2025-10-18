@@ -9,8 +9,11 @@
 6. [Goals and Assumptions](#goals-and-assumptions)
 
 ## Project Overview
-Long hospital wait times delay treatment and lower patient satisfaction. Many hospitals currently rely on manual systems that make it difficult for doctors to determine which patients should be visited next.\
+Long hospital wait times delay treatment and lower patient satisfaction. Many hospitals currently rely on manual systems that make it difficult for doctors to determine which patients should be visited next.
+
 The Patient Priority Dashboard was developed to provide a quality control tool for tracking and mitigating wait times for inpatient care while on the hospital floor. Based on customer discovery and analyzing a hospital's needs, a six sigma-informed monitoring dashboard displays real-time information about all current inpatients using a standardized scoring system to highlight those requiring the most urgent attention. This easy-to-read visualization tool helps doctors manage patient prioritization, ultimately improving hospital operating efficiency and the overall quality of care offered.
+
+This project was developed for the Six Sigma Hackathon by Team 13, with members Eileen Ho, Harish Kamble, Maia Marshall, Sahara Shahab, and Mark Tarazi.
 
 ## Project Objective
 The goal of the Patient Priority Dashboard is to display all current patients on the floor and order how they should be prioritized in being checked based on: 
@@ -72,16 +75,16 @@ The Sort by feature improves the usability of the dashboard by allowing the user
 - Sorting by Hours Since Last Checked: Helps the user easily see which patients in general have gone the longest without a visit. 
 - Sorting by Injury Severity Score (ISS): Allows the user to focus on the most critically injured patients. 
 
-Dashboard sorted by ISS:\
-<img width="811" height="671" alt="image" src="https://github.com/user-attachments/assets/58dbe852-7824-4fdb-bb04-a8193afe03bf" />\
+Dashboard sorted by **ISS**:\
+<img width="511" height="371" alt="image" src="https://github.com/user-attachments/assets/58dbe852-7824-4fdb-bb04-a8193afe03bf" />\
 This image shows how the dashboard will look when sorted by ISS. The data is ordered in descending order with the first row showing the patient with the highest ISS and the last row shown on the screen showing the patient with the tenth highest ISS. This option allows the user to quickly identify and prioritize patients with the most critical injuries, ensuring that the high severity cases receive quicker attention.
 
-Dashboard sorted by Hours Since Last Checked:\
-<img width="810" height="667" alt="image" src="https://github.com/user-attachments/assets/0aa17762-b43c-4615-bf9e-d967b2afeea6" />\
+Dashboard sorted by **Hours Since Last Checked**:\
+<img width="510" height="367" alt="image" src="https://github.com/user-attachments/assets/0aa17762-b43c-4615-bf9e-d967b2afeea6" />\
 This image shows how the dashboard will look when sorted by Hours since Last Checked. The data is arranged in descending order, with the patient who has gone the longest without being seen appearing at the top row. This sorting option allows users to identify patients who may have been waiting too long for a check in, ensuring that no patient experiences too long of a wait time in care.
 
-Dashboard sorted by Priority Score:\
-<img width="817" height="669" alt="image" src="https://github.com/user-attachments/assets/a72041dc-8107-4e82-ac14-f22a31e6d585" />\
+Dashboard sorted by **Priority Score**:\
+<img width="517" height="369" alt="image" src="https://github.com/user-attachments/assets/a72041dc-8107-4e82-ac14-f22a31e6d585" />\
 This image shows how the dashboard will look when sorted by the priority score. The data appears in descending order, with the patient with the highest priority score being on the first row. This sorting method accounts for multiple criteria (wait time, ISS, duration/number of checks), and results in a balanced evaluation of urgency and stability.
 
 This flexibility transforms the dashboard from a static display into an interactive decision support tool. It is easy for doctors to interact with and prioritize patients by whichever metric they feel is most important, and be able to quickly see and verify which patient requires their attention.
